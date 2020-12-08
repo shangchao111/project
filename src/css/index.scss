@@ -22,7 +22,7 @@
         main #main-one-SMB #sidebar{width: 320px;float: left;height: 376px;margin-left: -10px;}
         main #main-one-SMB #sidebar .siderbar-box{height: 47px;width:320px ;border: 1px solid #fff;position: relative;border-radius: 5px 0px 0px 5px;}
         main #main-one-SMB #sidebar .siderbar-box .siderbar-box-info{height: 45px;padding: 10px 0;position: relative;width: 319px;border-right:2px solid #fff;}
-        main #main-one-SMB #sidebar .siderbar-box .xbox{width: 600px; position: absolute;left: 318px;background-color: #fff; height: 320px;top: -1px; display: none;border:1px solid rgb(232, 232,232);z-index: 1;border-radius: 0px 5px 5px 5px;}
+        main #main-one-SMB #sidebar .siderbar-box .xbox{width: 600px; position: absolute;left: 318px;background-color: #fff; /* height: 320px; */top: -1px; display: none;border:1px solid rgb(232, 232,232);z-index: 1;border-radius: 0px 5px 5px 5px;padding-bottom: 20px;}
         main #main-one-SMB #sidebar .siderbar-box .xbox h2{ height: 27px; line-height: 27px; font-weight: 500; font-size: 18px;margin-bottom: 10px; padding: 10px; margin-left: 10px ;}
         main #main-one-SMB #sidebar .siderbar-box .xbox a{margin: 0 5px 0 0;height: 27px;display:block;float: left;padding: 20px;color: rgb(5, 5, 5)}
         main #main-one-SMB #sidebar .siderbar-box .siderbar-box-info h2{float: left; height: 27px; line-height: 27px; font-weight: 500; font-size: 18px;margin-bottom: 0;padding-left: 20px;padding-right: 10px;}

@@ -13,8 +13,15 @@
             height:40,
             display:'none',
         })
-        // 位置
-        $('.carousel-control-next,.carousel-control-prev').css('width',60)
+        // 左右按钮位置
+        $('.carousel-control-next,.carousel-control-prev').css({
+            'width':40,
+            'height':40,
+            'position':'absolute;',
+            'top':'50%',
+            'margin-top':'-30px',
+        })
+        
 
 
         // 轮播图左右按钮显示隐藏事件
@@ -36,7 +43,7 @@
                    border:'1px solid rgb(232, 232,232)',
                    'border-right':0,
                })
-            $(this).find('.siderbar-box-info').css('z-index','2')
+            $(this).find('.siderbar-box-info').css('z-index','4')
             $(this).find('.xbox').css({
                    display:'block',
                })
@@ -51,5 +58,12 @@
             $(this).find('.xbox').css({
                 display:'none',
             })
+        })
+        // 防止鼠标移到轮播图按钮 xbox不显示
+        $('.xbox').on('mouseover',function(){
+            $(this).css('z-index','3')
+            $(this).css({
+                   display:'block',
+               })
         })
         
