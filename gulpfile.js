@@ -55,6 +55,9 @@ function watchTask(){
     watch('./src/view/**' , htmlTask);
     watch('./src/staic/**' , staticTask);
     watch('./src/css/**' , sassTask);
+    watch('./src/js/**' , jsTask);
+    watch('./src/lib/**' , libTask);
+    watch('./src/api/**' , apiTask);
 }
 
 //gulp启动web服务器
@@ -71,7 +74,7 @@ function webTask(){
 //接口
 module.exports = {
     // 开发调用的命令
-    dev : series(cleanTask , parallel(htmlTask , staticTask , sassTask) , parallel(watchTask,webTask) ),
+    dev : series(cleanTask , parallel(htmlTask , staticTask , sassTask , jsTask , libTask , apiTask) , parallel(watchTask,webTask) ),
     // 生产调用的命令
     build : series(cleanTask)
 };
