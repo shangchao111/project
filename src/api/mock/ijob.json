@@ -1,0 +1,43 @@
+{
+    "type" : "siderbar",
+    "code" : 0,
+    "ijob_list" :[
+        {
+    "id":"1",
+    "company":"中邮信息科技（北京）有限公司",
+    "position":"测试工具研发工程师 ",
+    "salary":"20k-30k ",
+    "requirement":"/北京 / 经验3-5年 / 本科及以上 / 全职",
+    "category":"测试框架",
+    "time":"14:25  发布于拉勾网",
+    "field":["移动互联网","其他"],
+    "company_logo":"https://www.lgstatic.com/thumbnail_160x160/i/image/M00/2B/4E/CgqCHl797seAQ8TTAABMN33DMS8299.png"
+    
+        },
+        {
+            "id":"1",
+            "company":"中邮信息科技（北京）有限公司",
+            "position":"测试工具研发工程师 ",
+            "salary":"20k-30k ",
+            "requirement":"/北京 / 经验3-5年 / 本科及以上 / 全职",
+            "category":"测试框架",
+            "time":"14:25  发布于拉勾网",
+            "field":["移动互联网","其他"],
+            "company_logo":"https://www.lgstatic.com/thumbnail_160x160/i/image/M00/2B/4E/CgqCHl797seAQ8TTAABMN33DMS8299.png"
+            
+                },
+                {
+                    "id":"1",
+                    "company":"中邮信息科技（北京）有限公司",
+                    "position":"测试工具研发工程师 ",
+                    "salary":"20k-30k ",
+                    "requirement":"/北京 / 经验3-5年 / 本科及以上 / 全职",
+                    "category":"测试框架",
+                    "time":"14:25  发布于拉勾网",
+                    "field":["移动互联网","其他"],
+                    "company_logo":"https://www.lgstatic.com/thumbnail_160x160/i/image/M00/2B/4E/CgqCHl797seAQ8TTAABMN33DMS8299.png"
+                    
+                        }
+    ]
+
+    }

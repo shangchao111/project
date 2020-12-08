@@ -8,9 +8,18 @@ define(['jquery'] , function($){
     function getEduBannerData(){//轮播图
         return $.ajax('/api/mock/edubanner.json')
     }
+    function getSBData(){
+        return $.ajax('/api/mock/isbn.json')
+    }
+    function getIjobData(){
+        return $.ajax('/api/mock/ijob.json')
+    }
     return{
         getEduCloumnData,
         getEduBannerData,
-        getEduCampData
+        getEduCampData,
+        getEduCloumnData,
+        getSBData,
+        getIjobData
     }
 })
