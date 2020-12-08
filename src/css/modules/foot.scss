@@ -8,6 +8,10 @@
 #footer #footer-top-left>a{color: #000;}
 #footer #footer-top-left>a:nth-of-type(2){float: right;}
 #footer #footer-top-left>a:hover{color: #00b38a;}
+#footer-top-left-app{position: relative;}
+#footer-top-left-wx{position: relative;}
+#footer-top-left-app span{position: absolute;width: 100px;height: 100px;background: url(https://www.lgstatic.com/app_download/static/page/pc/images/qrcode-app_26a7667.png) no-repeat;right: -115px;top: 0;background-size: 100% 100%;display: none;}
+#footer-top-left-wx span{position: absolute;width: 100px;height: 100px;background: url(https://www.lgstatic.com/thumbnail_160x160/image2/M00/6B/22/CgoYOF4W2QiAMqnEAACTzillcXg629.png) no-repeat;right: -115px;bottom: -1px;background-size: 100% 100%;display: none;}
 #footer #footer-top-right{margin-top: 49px;margin-bottom: 66px;padding-left: 130px;display: flex;flex: 1;justify-content: space-between;width: 757px;height: 138px;}
 #footer #footer-top-right h3{margin-bottom: 30px;font-style: 18px;}
 #footer #footer-top-right li{margin-bottom: 10px;}

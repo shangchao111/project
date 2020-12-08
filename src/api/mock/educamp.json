@@ -1,0 +1,68 @@
+{
+    "type" : "eduCamp",
+    "code" : 0,
+    "eduCamp_list1" : [
+        {
+            "link" : "https://kaiwu.lagou.com/data_analysis.html?utm_source=App&utm_medium=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&utm_campaign=App%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&put_id=26&channel_from=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA#/index",
+            "img" : "https://s0.lgstatic.com/i/image/M00/32/E0/CgqCHl8O1E2AFuc1AAB42PGCpYI251.png"
+        },
+        {
+            "link" : "https://kaiwu.lagou.com/java_architect.html?utm_source=App&utm_medium=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&utm_campaign=App%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&put_id=26&channel_from=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA",
+            "img" : "https://s0.lgstatic.com/i/image/M00/61/1F/CgqCHl-OxE6AVATRAANxr4qq1r0833.png"
+        },
+        {
+            "link" : "https://kaiwu.lagou.com/pm_essential.html?utm_source=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&utm_campaign=App%25E5%25BC%2595%25E6%25B5%2581&put_id=26&channel_from=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA",
+            "img" : "https://s0.lgstatic.com/i/image/M00/51/32/CgqCHl9kdxiASE60AAKnBBCgqn0930.png"
+        }
+    ],
+    "eduCamp_list2" : [
+        {
+            "link" : "https://kaiwu.lagou.com/data_analysis.html?utm_source=App&utm_medium=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&utm_campaign=App%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&put_id=26&channel_from=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA#/index",
+            "img" : "https://s0.lgstatic.com/i/image/M00/32/E0/CgqCHl8O1E2AFuc1AAB42PGCpYI251.png"
+        },
+        {
+            "link" : "https://kaiwu.lagou.com/java_architect.html?utm_source=App&utm_medium=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&utm_campaign=App%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&put_id=26&channel_from=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA",
+            "img" : "https://s0.lgstatic.com/i/image/M00/61/1F/CgqCHl-OxE6AVATRAANxr4qq1r0833.png"
+        },
+        {
+            "link" : "https://kaiwu.lagou.com/pm_essential.html?utm_source=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&utm_campaign=App%25E5%25BC%2595%25E6%25B5%2581&put_id=26&channel_from=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA",
+            "img" : "https://s0.lgstatic.com/i/image/M00/51/32/CgqCHl9kdxiASE60AAKnBBCgqn0930.png"
+        },
+        {
+            "link" : "https://kaiwu.lagou.com/fe_essential.html?utm_campaign=App%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&put_id=26&channel_from=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA",
+            "img" : "https://s0.lgstatic.com/i/image/M00/49/36/CgqCHl9OfxGAdRTuAAKel6wbLdk645.png"
+        },
+        {
+            "link" : "https://kaiwu.lagou.com/data_analysis.html?utm_source=App&utm_medium=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&utm_campaign=App%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&put_id=26&channel_from=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA#/index",
+            "img" : "https://s0.lgstatic.com/i/image/M00/32/E0/CgqCHl8O1E2AFuc1AAB42PGCpYI251.png"
+        },
+        {
+            "link" : "https://kaiwu.lagou.com/java_architect.html?utm_source=App&utm_medium=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&utm_campaign=App%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&put_id=26&channel_from=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA",
+            "img" : "https://s0.lgstatic.com/i/image/M00/61/1F/CgqCHl-OxE6AVATRAANxr4qq1r0833.png"
+        },
+        {
+            "link" : "https://kaiwu.lagou.com/pm_essential.html?utm_source=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&utm_campaign=App%25E5%25BC%2595%25E6%25B5%2581&put_id=26&channel_from=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA",
+            "img" : "https://s0.lgstatic.com/i/image/M00/51/32/CgqCHl9kdxiASE60AAKnBBCgqn0930.png"
+        },
+        {
+            "link" : "https://kaiwu.lagou.com/fe_essential.html?utm_campaign=App%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&put_id=26&channel_from=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA",
+            "img" : "https://s0.lgstatic.com/i/image/M00/49/36/CgqCHl9OfxGAdRTuAAKel6wbLdk645.png"
+        },
+        {
+            "link" : "https://kaiwu.lagou.com/data_analysis.html?utm_source=App&utm_medium=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&utm_campaign=App%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&put_id=26&channel_from=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA#/index",
+            "img" : "https://s0.lgstatic.com/i/image/M00/32/E0/CgqCHl8O1E2AFuc1AAB42PGCpYI251.png"
+        },
+        {
+            "link" : "https://kaiwu.lagou.com/java_architect.html?utm_source=App&utm_medium=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&utm_campaign=App%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&put_id=26&channel_from=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA",
+            "img" : "https://s0.lgstatic.com/i/image/M00/61/1F/CgqCHl-OxE6AVATRAANxr4qq1r0833.png"
+        },
+        {
+            "link" : "https://kaiwu.lagou.com/pm_essential.html?utm_source=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&utm_campaign=App%25E5%25BC%2595%25E6%25B5%2581&put_id=26&channel_from=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA",
+            "img" : "https://s0.lgstatic.com/i/image/M00/51/32/CgqCHl9kdxiASE60AAKnBBCgqn0930.png"
+        },
+        {
+            "link" : "https://kaiwu.lagou.com/fe_essential.html?utm_campaign=App%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA&put_id=26&channel_from=%25E8%25AE%25AD%25E7%25BB%2583%25E8%2590%25A5%25E4%25B8%2593%25E5%258C%25BA",
+            "img" : "https://s0.lgstatic.com/i/image/M00/49/36/CgqCHl9OfxGAdRTuAAKel6wbLdk645.png"
+        }
+    ]
+}

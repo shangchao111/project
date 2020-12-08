@@ -1,0 +1,27 @@
+{
+    "type" : "eduBanner",
+    "code" : 0,
+    "eduBanner_list" : [
+        {
+            "link" : "https://zhuanti.lagou.com/xunlianying.html?put_id=20&channel_from=banner",
+            "img" : "https://www.lgstatic.com/i/image/M00/7C/75/Ciqc1F_NnSSAOjCGAAFQOLVqKHY992.JPG",
+            "title" : "就业率口碑训练营限时大促"
+        },
+        {
+            "link" : "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=575&decorateId=7ef822cc555c42a1834c17cce319cdb2&utm_campaign=%E6%9C%AA%E7%9F%A5%E6%B4%BB%E5%8A%A8&utm_medium=edupcbanner&_channel_track_key=YhGiaDHQ&utm_source=lagouedu#/sale",
+            "img" : "https://www.lgstatic.com/i/image/M00/7C/B2/Ciqc1F_NxlKADgE1AADM8N56RXQ561.PNG",
+            "title" : "打好数据分析的基本功"
+        },
+        
+        {
+            "link" : "https://zhuanti.lagou.com/druid.html?put_id=20&channel_from=banner",
+            "img" : "https://www.lgstatic.com/i/image/M00/7C/F4/CgqCHl_N6KiAKbbsAAEdHXmsKiI703.JPG",
+            "title" : "Apache Druid 实时多维度聚合分析实战"
+        },
+        {
+            "link" : "https://kaiwu.lagou.com/fe_enhancement.html?utm_source=lagouedu&utm_medium=pcbanner&utm_campaign=%E5%A4%A7%E5%89%8D%E7%AB%AF%E9%AB%98%E8%96%AA%E8%AE%AD%E7%BB%83%E8%90%A5&put_id=20&channel_from=banner",
+            "img" : "https://www.lgstatic.com/i/image/M00/7C/F9/CgqCHl_N7EyAOSdlAAFBLI_YzSA765.JPG",
+            "title" : "前端高薪训练营"
+        }
+    ]
+}

@@ -1,17 +1,41 @@
 @import'./modules/common.scss';
 @import'./modules/head.scss';
 @import'./modules/foot.scss';
-#column a{width: 552px;height: 157px;padding: 20px;margin-bottom: 16px;background: #f8f9fa;border-radius: 4px;display: inline-block;position: relative;}
-#column a:nth-of-type(2n){float: right;}
-#column a img{width: 120px;height: 157px;border-radius: 4px;}
-#column a #column-right{padding-left: 136px;}
-#column a #column-right .column-right-title{font-size: 20px;color: #333;margin-top: 7px;font-weight: 500;}
-#column a #column-right .column-right-brief{overflow: hidden; white-space: nowrap;text-overflow: ellipsis;font-size: 14px;color: #333;margin-top: 4px;}
-#column a #column-right .column-right-teacher{overflow: hidden; white-space: nowrap;text-overflow: ellipsis;font-size: 12px;color: #999;margin-top: 10px;}
-#column a #column-right .column-right-btm{position: absolute;bottom: 20px;left: 154px;}
-#column a #column-right .column-right-btm span{color: #f00;font-size: 12px;}
-#column a #column-right .column-right-btm span:nth-of-type(2){font-size: 20px;}
-#column a #column-right .column-right-btm span:nth-of-type(3){color: #999;}
-#column a button{width: 80px;height: 36px;text-align: center;line-height: 36px;border: none;outline: none;background: #f6f6f6;color: #666;font-size: 14px;position: absolute;right: 20px;bottom: 20px;border-radius: 3px;cursor: pointer;}
-#column a button:hover{background:gold;}
-@import './modules/common.scss';
+//轮播图
+#edu-banner{width: 100%;height: 356px;position: relative;}
+#edu-banner ul{width: 100%;height: 100%;}
+#edu-banner #edu-banner-ul li{width: 100%;height: 100%;position: absolute;top: 0;left: 0;transition: .5s;opacity: 0;}
+#edu-banner #edu-banner-ul .active{ opacity: 1;}
+#edu-banner ul img{ width:100%; height:100%;}
+#edu-banner ol{ position: absolute; right:50%; bottom: 15px;margin-left: -44px;z-index: 1;cursor: pointer;}
+#edu-banner ol li{ width:12px;height:8px; background:#333;margin:5px;float:left;border-radius: 4px;}
+#edu-banner ol .active{ background: gold;}
+#edu-banner #edu-banner-right{position: absolute;width: 200px;height: 240px;background:rgba($color: #000000, $alpha: .5);right: 35px;top: 28px;border-radius: 10px;padding: 10px 30px;cursor: pointer;}
+#edu-banner #edu-banner-right li{margin: 10px 0;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;color: #b9b9b9;font-size: 16px;line-height: 29px;width: 100%;height: 29px;}
+#edu-banner #edu-banner-right .show{color: #fff;}
+#edu-banner #edu-banner-right li span{font-size: 20px;;color: gold;position: absolute;left: 6px;display: none;}
+#edu-banner #edu-banner-right .show span{display: block;}
+//专栏
+#edu-column>p{font-size: 24px;margin: 10px 0;font-weight: 600;}
+#edu-column a{width: 552px;height: 157px;padding: 20px;margin-bottom: 16px;background: #f8f9fa;border-radius: 4px;display: inline-block;position: relative;}
+#edu-column a:nth-of-type(2n){float: right;}
+#edu-column a img{width: 120px;height: 157px;border-radius: 4px;}
+#edu-column a #column-right{padding-left: 136px;}
+#edu-column a #column-right .column-right-title{font-size: 20px;color: #333;margin-top: 7px;font-weight: 500;}
+#edu-column a #column-right .column-right-brief{overflow: hidden; white-space: nowrap;text-overflow: ellipsis;font-size: 14px;color: #333;margin-top: 4px;}
+#edu-column a #column-right .column-right-teacher{overflow: hidden; white-space: nowrap;text-overflow: ellipsis;font-size: 12px;color: #999;margin-top: 10px;}
+#edu-column a #column-right .column-right-btm{position: absolute;bottom: 20px;left: 154px;}
+#edu-column a #column-right .column-right-btm span{color: #f00;font-size: 12px;}
+#edu-column a #column-right .column-right-btm span:nth-of-type(2){font-size: 20px;}
+#edu-column a #column-right .column-right-btm span:nth-of-type(3){color: #999;}
+#edu-column a button{width: 80px;height: 36px;text-align: center;line-height: 36px;border: none;outline: none;background: #d7d7d7;color: #666;font-size: 14px;position: absolute;right: 20px;bottom: 20px;border-radius: 3px;cursor: pointer;}
+#edu-column a button:hover{background:gold;}
+//训练营
+#edu-camp-top p{font-size: 24px;margin: 10px 0;font-weight: 600;}
+#edu-camp-top p span{width: 60px;height: 24px;text-align: center;font-size: 14px;font-weight: normal;line-height: 24px;cursor: pointer;border: 1px solid #d7d7d7;color: #555;border-radius: 3px;}
+#edu-camp-top p span:hover{color: gold;}
+#edu-camp-buttom a{width: 390px;height: 150px;margin: 10px 5px;display: inline-block;}
+#edu-camp-buttom a:nth-of-type(3n){margin-right: 0;}
+#edu-camp-buttom a:nth-of-type(3n+1){margin-left: 0;}
+#edu-camp-buttom a img{width: 100%;height: 100%;}
+#edu-camp-buttom a:hover img{margin-top: -5px;}
