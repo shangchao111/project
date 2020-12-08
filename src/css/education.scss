@@ -1,0 +1,17 @@
+@import'./modules/common.scss';
+@import'./modules/head.scss';
+@import'./modules/foot.scss';
+#column a{width: 552px;height: 157px;padding: 20px;margin-bottom: 16px;background: #f8f9fa;border-radius: 4px;display: inline-block;position: relative;}
+#column a:nth-of-type(2n){float: right;}
+#column a img{width: 120px;height: 157px;border-radius: 4px;}
+#column a #column-right{padding-left: 136px;}
+#column a #column-right .column-right-title{font-size: 20px;color: #333;margin-top: 7px;font-weight: 500;}
+#column a #column-right .column-right-brief{overflow: hidden; white-space: nowrap;text-overflow: ellipsis;font-size: 14px;color: #333;margin-top: 4px;}
+#column a #column-right .column-right-teacher{overflow: hidden; white-space: nowrap;text-overflow: ellipsis;font-size: 12px;color: #999;margin-top: 10px;}
+#column a #column-right .column-right-btm{position: absolute;bottom: 20px;left: 154px;}
+#column a #column-right .column-right-btm span{color: #f00;font-size: 12px;}
+#column a #column-right .column-right-btm span:nth-of-type(2){font-size: 20px;}
+#column a #column-right .column-right-btm span:nth-of-type(3){color: #999;}
+#column a button{width: 80px;height: 36px;text-align: center;line-height: 36px;border: none;outline: none;background: #f6f6f6;color: #666;font-size: 14px;position: absolute;right: 20px;bottom: 20px;border-radius: 3px;cursor: pointer;}
+#column a button:hover{background:gold;}
+@import './modules/common.scss';
