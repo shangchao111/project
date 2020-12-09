@@ -17,12 +17,16 @@
           }
     });
       
-        define(['jquery',"bootstarp","../api/server.js"],function($,q,{getSBData,getIjobData}){
-
+        define(['jquery',"bootstarp","../api/server.js","/js/modules/foot.js"],function($,q,{getSBData,getIjobData,getPositionData,getEduCloumnData},initFoot){
+            initFoot()
+            $('body').find('a').css("text-decoration","none")
             $('#footer').find('div').css('box-sizing','content-box')
             $('#footer').find('h3').css('height','22px')
             $('#footer').find('h3').css('font-size','18px')
-            $('#header-place').find('span').css('color','#afb5c0')
+
+           
+
+            // $('#header-place').find('span').css('color','#afb5c0')
          //    console.log($('#footer').find('div'));
       // 修改插件轮播图左右按钮的默认大小，隐藏，位置
              // 按钮图标大小，隐藏
@@ -74,21 +78,34 @@
              })
              
              // 侧边栏选项卡显示隐藏
+             $('.siderbar-box').append($('<span></span>'))
+             $('.siderbar-box').children('span').css({
+                 position:'absolute',
+                 left:'314px',
+                 top:'0',
+                 width:'5px',
+                 height:'47px',
+                 'z-index':'0',
+                 background:'#fff',
+                 display:'none'
+             })
              $('.siderbar-box').on('mouseover',function(){
-                 $(this).css({
-                        border:'1px solid rgb(232, 232,232)',
-                        'border-right':0,
-                    })
+                 
+                 $(this).children('span').css({
+                    'z-index':'6',
+                    display:'block'
+                 })
                  $(this).find('.siderbar-box-info').css('z-index','4')
                  $(this).find('.xbox').css({
                         display:'block',
                     })
              })
              $('.siderbar-box').on('mouseout',function(){
-                 $(this).css({
-                        border:'1px solid #fff',
-                        'border-right':0,
+                $(this).children('span').css({
+                    'z-index':'0',
+                    display:'none'
                  })
+                 
                  $(this).find('.siderbar-box-info').css('z-index','0')
      
                  $(this).find('.xbox').css({
@@ -99,17 +116,17 @@
             // 渲染#main-three-job1
              var job1 = $('#main-three-job1')
              getIjobData().then((res)=>{
-                var tmp= `<ul id="main-three-job1list">
+                var tmp= `<ul class="main-three-joblist">
                  ${res.ijob_list.map((v)=>{
                      return`<li data-id=${v.id}>
                      <div class="jli-top">
-                         <div class="job-name">${v.position}
+                         <div class="job-name"><a href="/view/xiangqing.html?type=${res.type}&id=${v.id}" target="_blank">${v.position}</a>
                              <span>${v.salary}</span>
                          </div>
                          <div class="wordcut">${v.requirement}</div>
                          <div class="labels">
                              
-                             ${v.field.map((xv)=>{
+                             ${v.category.map((xv)=>{
                                  return`<div class="labels-lis">${xv}</div>`
                              }).join('')}
                          </div>
@@ -126,7 +143,99 @@
                 }
              </ul>`
              job1.html(tmp)
+             $('.main-three-joblist').find('a').css({
+                 color:'#000',
+                 "text-decoration": "none"
+
              })
-        
+             })
+            //  渲染main-three-job2
+             var job2 = $('#main-three-job2 a')
+             getPositionData().then((res)=>{
+                 console.log(res.lis);
+                var data = res.lis
+                 var tmp=''
+                 for(var i=0;i<2    ;i++){
+                     console.log(data[i]);
+                  tmp=tmp+`<ul class="main-three-joblist">
+                  ${data[i].positions_list.map((v)=>{
+                      return`<li data-id=${v.companysId}>
+                      <div class="jli-top">
+                          <div class="job-name"><a href="#">${v.positionName}</a>
+                              <span>${v.positionSalary}</span>
+                          </div>
+                          <div class="wordcut">${v.positionRequire.join(' / ')}</div>
+                          <div class="labels">
+                              
+                              ${v.positionDescribe.map((xv)=>{
+                                  return`<div class="labels-lis">${xv}</div>`
+                              }).join('')}
+                          </div>
+                      </div>
+                      <div class="jli-bottom">
+                          <img src="${v.companysImg}" alt="">
+                          <div class="bottom-right">
+                              <div class="con-name">${v.companysName}</div>
+                              <div class="con-workcut">${v.companysIntroduce}</div>
+                          </div>
+                      </div>
+                  </li>`
+                  }).join('')
+                 }
+              </ul>`
+                 }
+                
+             job2.html(tmp)
+             $('.main-three-joblist').find('a').css({
+                 color:'#000',
+                 "text-decoration": "none"
+
+             })
+             })
+
+
+            //  渲染热门课程
+            var kecheng = $("#kecheng1-list")
+            getEduCloumnData().then((res)=>{
+                console.log(res.eduColumn_list);
+                var tmp =`<div id="kecheng1">
+                ${res.eduColumn_list.map((v)=>{
+                    return`<a href="http://localhost:3000/view/educolumn.html?id=${v.id}" target="_blank">
+                    <img src="${v.img}" class="l">
+                    <div id="column-right">
+                       <div class="column-right-title">${v.title}</div>
+                       <div class="column-right-brief">${v.brief}</div>
+                       <div class="column-right-teacher">${v.teacher}</div>
+                       <div class="column-right-btm">
+                          <span>￥</span>
+                          <span>${v.money}</span>
+                          <span>${v.people}</span>
+                       </div>
+                    </div>
+                    <button>试看</button>
+                </a>`
+                }).join('')
+            }
+                    </div>`
+                    kecheng.html(tmp)
+                    $('#main-five-kecheng').find('a').css('box-sizing','content-box')
+                    $('body').find('a').css("text-decoration","none")
+
+            })
+
+
+
+            //  two-list选项卡切换
+
+            function xxkqh(elem1){
+                elem1.children().on("click",function(){
+                    console.log($(this));
+                    $(this).addClass('current')
+                    $(this).siblings().removeClass('current')
+                    elem1.next().children().eq($(this).index()).css('display','block')
+                    elem1.next().children().eq($(this).index()).siblings().css('display','none')
+                })
+            }
+            xxkqh($('#main-two-list'))
         });
         

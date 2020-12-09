@@ -2,7 +2,7 @@
 @import './modules/head.scss';
 @import './modules/foot.scss';
 @import './modules/common.scss';
-       
+
         
 
         
@@ -20,9 +20,10 @@
         // main{/* background-color: darkgray; *//* overflow: hidden; */}
         main #main-one-SMB{margin-top: 26px;height: 376px;}
         main #main-one-SMB #sidebar{width: 320px;float: left;height: 376px;margin-left: -10px;}
-        main #main-one-SMB #sidebar .siderbar-box{height: 47px;width:320px ;border: 1px solid #fff;position: relative;border-radius: 5px 0px 0px 5px;}
-        main #main-one-SMB #sidebar .siderbar-box .siderbar-box-info{height: 45px;padding: 10px 0;position: relative;width: 319px;border-right:2px solid #fff;}
-        main #main-one-SMB #sidebar .siderbar-box .xbox{width: 450px; position: absolute;left: 318px;background-color: #fff; /* height: 320px; */top: -1px; display: none;border:1px solid rgb(232, 232,232);z-index: 1;border-radius: 0px 5px 5px 5px;padding-bottom: 20px;padding-left: 20px;}
+        main #main-one-SMB #sidebar .siderbar-box{height: 47px;width:320px ;/* border: 1px solid #fff; */position: relative;border-radius: 5px 0px 0px 5px;}
+        main #main-one-SMB #sidebar .siderbar-box:hover{box-shadow: #ccc 0px 0px 5px;}
+        main #main-one-SMB #sidebar .siderbar-box .siderbar-box-info{height: 45px;padding: 10px 0;position: relative;width: 320px;}
+        main #main-one-SMB #sidebar .siderbar-box .xbox{width: 450px; position: absolute;left: 318px;background-color: #fff; /* height: 320px; */top: 0px; display: none;box-shadow: #ccc 0px 0px 5px;;z-index: 1;border-radius: 0px 5px 5px 5px;padding-bottom: 20px;padding-left: 20px;}
         main #main-one-SMB #sidebar .siderbar-box .xbox h2{ height: 27px; line-height: 27px; font-weight: 500; font-size: 18px;margin-bottom: 20px; padding: 10px ;padding-left: 10px;}
         main #main-one-SMB #sidebar .siderbar-box .xbox a{margin: 5px 5px 0 0;height: 27px;display:block;float: left;color: rgb(119, 119, 119);padding: 0 11px;}
         main #main-one-SMB #sidebar .siderbar-box .xbox a:hover{color: #00b38a;}
@@ -30,24 +31,54 @@
         main #main-one-SMB #sidebar .siderbar-box .siderbar-box-info a{margin: 0 5px 0 0;height: 27px;display:block;float: left;padding: 0 8px 0 8px;color: rgb(5, 5, 5)}
         main #main-one-SMB #sidebar .siderbar-box .siderbar-box-info a:hover{color: #00b38a;}
         main #main-one-SMB #sidebar .siderbar-box .siderbar-box-info h3{font-size: 14px;line-height: 27px;margin-bottom: 0;height: 27px;font-weight:normal;}
-        main #main-one-SMB #sidebar .siderbar-box .siderbar-box-info span{float: right;cursor: pointer;color: #ccc;font-size: 16px;}
+        main #main-one-SMB #sidebar .siderbar-box .siderbar-box-info span{float: right;cursor: pointer;color: #ccc;font-size: 16px;padding-right: 10px;}
         main #main-one-SMB #move-banner{width: 840px;height: 346px; margin-top: 15px; float: right;background-color: #00b38a;}
 
         #main-two-list{height: 52px;margin-top: 52px;margin-bottom: 14px;border-bottom: 1px solid #E8E8E8;}
-        #main-two-list li{display: inline-block;padding: 14px 0;margin-right: 58px;font-size: 18px;color: #999;}
+        #main-two-list li{display: inline-block;padding: 11px 0;margin-right: 58px;font-size: 16px;color: #999;}
+        #main-two-list .current{border-bottom: 2px solid #333;background: #fff;color: #333;font-size: 18px;}
+            
 
         #main-three-Jobs{margin-top: 10px;}
-        #main-three-job1list{display: flex;justify-content:space-around;flex-wrap: wrap; }
-        #main-three-job1list li{width: 390px;border: 1px solid rgb(232, 232,232);height: 178px;margin-bottom: 16px;padding: 20px 28px 0;}
-        #main-three-job1list li .jli-top{height: 95px;border-bottom: 1px dashed rgb(232, 232,232);}
-        #main-three-job1list li .jli-top .job-name{height: 25px;font-size: 17px;}
-        #main-three-job1list li .jli-top .job-name span{float: right;color: #f60;}
-        #main-three-job1list li .jli-top .wordcut{height: 30px;font-size: 14px;color: #777777;line-height: 30px;}
-        #main-three-job1list li .jli-top .labels .labels-lis{padding: 0px 10px;height: 22px;font-size: 12px;margin-right: 6px;color:#999;border: 1px solid rgb(232, 232,232);display: inline-block;text-align: center;border-radius: 10%;}
-        #main-three-job1list li .jli-bottom{padding-top: 10px;}
-        #main-three-job1list li .jli-bottom img{width: 40px;height: 40px;float: left;}
-        #main-three-job1list li .jli-bottom .bottom-right{height: 40px;margin-left: 54px;}
-        #main-three-job1list li .jli-bottom .con-name{height: 20px;font-size: 14px;}  
-        #main-three-job1list li .jli-bottom .con-workcut{height: 20px;font-size: 14px;color: #777777;}
+        // #main-three-Jobs #main-three-job1{position: absolute;top: 0;}
+        #main-three-Jobs #main-three-job2{display: none;}
+        .main-three-joblist{display: flex;justify-content:space-around;flex-wrap: wrap;}
+        .main-three-joblist li{width: 390px;border: 1px solid rgb(232, 232,232);height: 205px;margin-bottom: 16px;padding: 20px 28px 0;border-radius: 5px;}
+        .main-three-joblist li:hover{box-shadow: #ccc 0px 0px 5px;}
+        .main-three-joblist li .jli-top{height: 114px;border-bottom: 1px dashed rgb(232, 232,232);}
+        .main-three-joblist li .jli-top .job-name{height: 25px;font-size: 17px;}
+        .main-three-joblist li .jli-top .job-name span{float: right;color: #f60;}
+        .main-three-joblist li .jli-top .wordcut{height: 30px;font-size: 14px;color: #777777;line-height: 30px;margin-top: 5px;}
+        .main-three-joblist li .jli-top .labels{margin-top: 10px;}
+        .main-three-joblist li .jli-top .labels .labels-lis{padding: 0px 10px;height: 26px; line-height: 26px; font-size: 12px;margin-right: 6px;color:#999;border: 1px solid rgb(232, 232,232); border-radius: 0px; display: inline-block;text-align: center;}
+        .main-three-joblist li .jli-bottom{padding-top: 10px;}
+        .main-three-joblist li .jli-bottom img{width: 40px;height: 40px;float: left;}
+        .main-three-joblist li .jli-bottom .bottom-right{height: 40px;margin-left: 54px;}
+        .main-three-joblist li .jli-bottom .con-name{height: 20px;font-size: 14px;color: #000;}  
+        .main-three-joblist li .jli-bottom .con-workcut{height: 20px;font-size: 14px;color: #777777;}
 
+   
+
+        #main-four-list{height: 52px;margin-top: 0px;margin-bottom: 14px;border-bottom: 1px solid #E8E8E8;}
+        #main-four-list li{display: inline-block;padding: 11px 0;margin-right: 58px;font-size: 16px;color: #999;}
+        #main-four-list .current{border-bottom: 2px solid #333;background: #fff;color: #333;font-size: 18px;}
+        
+        #kecheng1{height: 426px;overflow: hidden;padding-top: 5px;}
+        #kecheng1 a{width: 552px;height: 157px;padding: 20px;margin-bottom: 16px;/* background: #f8f9fa; */border-radius: 4px;display: inline-block;position: relative;}
+        #kecheng1 a:hover{box-shadow: #ccc 0px 0px 5px;}
+        #kecheng1 a:nth-of-type(2n){float: right;}
+        #kecheng1 a img{width: 120px;height: 157px;border-radius: 4px;}
+        #kecheng1 a #column-right{padding-left: 136px;}
+        #kecheng1 a #column-right .column-right-title{font-size: 20px;color: #333;margin-top: 7px;font-weight: 500;}
+        #kecheng1 a #column-right .column-right-brief{overflow: hidden; white-space: nowrap;text-overflow: ellipsis;font-size: 14px;color: #333;margin-top: 4px;}
+        #kecheng1 a #column-right .column-right-teacher{overflow: hidden; white-space: nowrap;text-overflow: ellipsis;font-size: 12px;color: #999;margin-top: 10px;}
+        #kecheng1 a #column-right .column-right-btm{position: absolute;bottom: 20px;left: 154px;}
+        #kecheng1 a #column-right .column-right-btm span{color: #f00;font-size: 12px;}
+        #kecheng1 a #column-right .column-right-btm span:nth-of-type(2){font-size: 20px;}
+        #kecheng1 a #column-right .column-right-btm span:nth-of-type(3){color: #999;}
+        #kecheng1 a button{width: 80px;height: 36px;text-align: center;line-height: 36px;border: none;outline: none;background: #f6f6f6;color: #666;font-size: 14px;position: absolute;right: 20px;bottom: 20px;border-radius: 3px;cursor: pointer;}
+        #kecheng1 a button:hover{background:gold;}
+
+        .button a div{width: 387px; height: 42px;line-height: 42px;margin: 16px auto 26px;background: #FFF;border: 1px solid #00B38A;font-size: 16px;color: #00b38a;text-align: center;}
+        .button a div:hover{color: #fff;background-color: #00b38a;}
 

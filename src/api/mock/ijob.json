@@ -1,43 +1,87 @@
 {
-    "type" : "siderbar",
-    "code" : 0,
-    "ijob_list" :[
+    "type": "job",
+    "code": 0,
+    "ijob_list": [
+        {  
+            "id": "01",
+            "company": "中邮信息科技（北京）有限公司",
+            "position": "测试工具研发工程师 ",
+            "salary": "20k-30k ",
+            "requirement": "北京 / 经验3-5年 / 本科及以上 / 全职",
+            "category": [
+                "测试框架"
+            ],
+            "time": "14:25  发布于拉勾网",
+            "field": "移动互联网 / 其他",
+            "company_logo": "https://www.lgstatic.com/thumbnail_160x160/i/image/M00/2B/4E/CgqCHl797seAQ8TTAABMN33DMS8299.png"
+        },
+        
         {
-    "id":"1",
-    "company":"中邮信息科技（北京）有限公司",
-    "position":"测试工具研发工程师 ",
-    "salary":"20k-30k ",
-    "requirement":"/北京 / 经验3-5年 / 本科及以上 / 全职",
-    "category":"测试框架",
-    "time":"14:25  发布于拉勾网",
-    "field":["移动互联网","其他"],
-    "company_logo":"https://www.lgstatic.com/thumbnail_160x160/i/image/M00/2B/4E/CgqCHl797seAQ8TTAABMN33DMS8299.png"
-    
+            "id": "02",
+            "company": "汉云通信运营中心",
+            "position": "产品运营经理 ",
+            "salary": "15k-30k·13薪 ",
+            "requirement": "北京 / 经验3年 / 本科及以上 / 全职",
+            "category": [
+                "通信","网络设备","企业服务"
+            ],
+            "time": "14:25  发布于拉勾网",
+            "field": "企业服务",
+            "company_logo": "https://www.lgstatic.com/thumbnail_160x160/i/image/M00/B0/7F/CgqKkVi37ZiAQ7GvAAAXTlZN2nQ726.jpg"
         },
         {
-            "id":"1",
-            "company":"中邮信息科技（北京）有限公司",
-            "position":"测试工具研发工程师 ",
-            "salary":"20k-30k ",
-            "requirement":"/北京 / 经验3-5年 / 本科及以上 / 全职",
-            "category":"测试框架",
-            "time":"14:25  发布于拉勾网",
-            "field":["移动互联网","其他"],
-            "company_logo":"https://www.lgstatic.com/thumbnail_160x160/i/image/M00/2B/4E/CgqCHl797seAQ8TTAABMN33DMS8299.png"
-            
-                },
-                {
-                    "id":"1",
-                    "company":"中邮信息科技（北京）有限公司",
-                    "position":"测试工具研发工程师 ",
-                    "salary":"20k-30k ",
-                    "requirement":"/北京 / 经验3-5年 / 本科及以上 / 全职",
-                    "category":"测试框架",
-                    "time":"14:25  发布于拉勾网",
-                    "field":["移动互联网","其他"],
-                    "company_logo":"https://www.lgstatic.com/thumbnail_160x160/i/image/M00/2B/4E/CgqCHl797seAQ8TTAABMN33DMS8299.png"
-                    
-                        }
+            "id": "03",
+            "company": "联龙博通",
+            "position": "需求分析工程师 ",
+            "salary": "8k-10k·13薪",
+            "requirement": "武汉 / 经验3-5年 / 大专及以上 / 全职",
+            "category": [
+                "需求分析"
+            ],
+            "time": "14:25  发布于拉勾网",
+            "field": "移动互联网/电商",
+            "company_logo": "https://www.lgstatic.com/thumbnail_160x160/image1/M00/1E/06/CgYXBlUs4zKABvsqAACmSrJc6MQ571.jpg"
+        }, 
+        {
+            "id": "03",
+            "company": "联龙博通",
+            "position": "需求分析工程师 ",
+            "salary": "8k-10k·13薪",
+            "requirement": "武汉 / 经验3-5年 / 大专及以上 / 全职",
+            "category": [
+                "需求分析"
+            ],
+            "time": "14:25  发布于拉勾网",
+            "field": "移动互联网/电商",
+            "company_logo": "https://www.lgstatic.com/thumbnail_160x160/image1/M00/1E/06/CgYXBlUs4zKABvsqAACmSrJc6MQ571.jpg"
+        },
+        {  
+            "id": "01",
+            "company": "中邮信息科技（北京）有限公司",
+            "position": "测试工具研发工程师 ",
+            "salary": "20k-30k ",
+            "requirement": "北京 / 经验3-5年 / 本科及以上 / 全职",
+            "category": [
+                "测试框架"
+            ],
+            "time": "14:25  发布于拉勾网",
+            "field": "移动互联网 / 其他",
+            "company_logo": "https://www.lgstatic.com/thumbnail_160x160/i/image/M00/2B/4E/CgqCHl797seAQ8TTAABMN33DMS8299.png"
+        },
+       
+        {
+            "id": "02",
+            "company": "汉云通信运营中心",
+            "position": "产品运营经理 ",
+            "salary": "15k-30k·13薪 ",
+            "requirement": "北京 / 经验3年 / 本科及以上 / 全职",
+            "category": [
+                "通信","网络设备","企业服务"
+            ],
+            "time": "14:25  发布于拉勾网",
+            "field": "企业服务",
+            "company_logo": "https://www.lgstatic.com/thumbnail_160x160/i/image/M00/B0/7F/CgqKkVi37ZiAQ7GvAAAXTlZN2nQ726.jpg"
+        }
+                
     ]
-
-    }
+}
