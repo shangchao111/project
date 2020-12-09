@@ -1,0 +1,16 @@
+@import'./modules/common.scss';
+@import'./modules/head.scss';
+@import'./modules/foot.scss';
+#ecn{height: 458px;}
+#ecn-head{height: 30px;margin: 20px 0;font-size: 14px;line-height: 30px;margin-left: 100px;}
+#ecn-head a{color: #555;}
+#ecn-head a:hover{color: gold;}
+#ecn-head span{color: #c5c5c5;}
+#ecn-body-left img{width: 480;height: 358px;margin-left: 100px;}
+#ecn-body-right{margin-right: 100px;width: 480px;height: 358px;position: relative;}
+#ecn-body-right h5{font-size: 30px;margin-bottom: 10px;color: #333;line-height: 45px;font-weight: normal;}
+#ecn-body-right p:nth-child(2){font-size: 16px;color: #d7d7d7;line-height: 20px;}
+#ecn-body-right p:nth-child(3){width: 70px;height: 30px;background: #e6e6e6;border-radius: 2px;text-align: center;font-size: 14px;line-height: 30px;margin-top: 30px;}
+#ecn-body-right span:nth-child(4){color:#ff7452;font-size: 18px;margin-top: 30px;display: inline-block;font-weight: bolder;}
+#ecn-body-right span:nth-child(5){color: #ff7452;font-size: 32px;margin-top: 30px;display: inline-block;font-weight: bolder;}
+#ecn-body-right button:nth-child(6){position: absolute;width: 200px;height: 52px;left: 0;bottom: 0;background: #fcd766;outline: none;border: 0;border-radius: 3px;font-size: 20px;cursor: pointer;}
