@@ -1,0 +1,37 @@
+
+
+@import './modules/head.scss';
+@import './modules/foot.scss';
+@import './modules/common.scss';
+       
+#banner{width: 1349px;height: 208px; background-color: #f2f5f4;}
+#content{width: 1024px;height: 167px;margin: 20px auto;}
+#content-1{ float: left; line-height: 40px;}
+#content-1 .zhiwu{font-size: 36px; color: #000000; }
+#content-1 .yaoqiu{font-size: 18px; color: #555555;}
+#content-1 .yaoqiu span{color: red;}
+#content-1 .shijian{font-size: 12px;color: #999999;}
+#content-2{ float: right;}
+#content-2{display: flex; justify-content: space-around;}
+#content-2 .btn-small{text-align: center;line-height: 101px;}
+#content-2 .btn-big{ width: 328px;height: 101px; line-height: 101px;}
+#content-2 .btn-big .big-left{width: 132px;height: 46px;display: inline-block;  margin-left: 10px; border-radius: 5px; text-align: center;line-height: 46px; border: solid #00b38a 1px;}
+#content-2 .btn-big .big-right{width: 132px;height: 46px;display: inline-block; border-radius: 5px; text-align: center;line-height: 46px; border: solid #00b38a 1px; background-color: #00b38a;}
+#content-2 .btn-big .lianjie{margin-left: 30px;}
+#neirong{width: 1024px;margin: 0 auto ;margin-top: 40px;overflow: auto;}
+#neirong .neirong_left{box-shadow:rgb(228, 226, 226) 3px 0 10px;float: left; }
+#neirong .neirong_left .neirong1{font-weight: 800; font-size: 18px; line-height: 28px;}
+#neirong .neirong_left .neirong1 span{font-weight: normal; font-size: 16px;}
+#neirong .neirong_left .neirong2{font-weight: 800; font-size: 18px;line-height: 28px;margin-top: 20px;}
+#neirong .neirong_left .neirong2 .line{font-weight: normal; font-size: 14px;margin-top: 20px;}
+#neirong .neirong_left .neirong3{font-weight: 800; font-size: 18px;line-height: 28px;margin-top: 20px;}
+#neirong .neirong_left .neirong3 .line{font-weight: normal; font-size: 16px;}
+#neirong .neirong_left .neirong4{font-weight: 800; font-size: 18px;line-height: 28px;margin-top: 20px;}
+#neirong .neirong_left .neirong4 .line{font-weight: normal; font-size: 16px;}
+#neirong .neirong_left .neirong5{ font-size: 22px;margin-top: 20px;}
+#neirong .neirong_left .neirong5 .line{font-weight: normal; font-size: 16px;}
+#neirong .neirong_right{float: right;}
+#neirong .neirong_right .logo img{width: 100px;height: 100px; border: 1px solid #ccc; float: left; }
+#neirong .neirong_right .name{ float: right; padding-top: 80px;font-size: 18px;}
+#neirong .neirong_right .tips{font-size: 12px; color: #ccc; line-height: 40px; }
+#neirong .neirong_right .guanggao{font-size: 70px; color: red; font-weight: 800; }

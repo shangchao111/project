@@ -46,6 +46,9 @@ define(['jquery'] , function($){
         return promise;
     }
 
+    function getxqjobData(){
+        return $.ajax('/api/mock/xqjob.json')
+    }
     return {
         getBannerData,
         getBanner1Data,
@@ -57,6 +60,7 @@ define(['jquery'] , function($){
         getEduCloumnData,
         getSBData,
         getIjobData,
-        getEcnData
+        getEcnData,
+        getxqjobData
     }
 })
