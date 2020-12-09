@@ -1,0 +1,237 @@
+
+{"lis":[
+    {
+    "type" : "position",
+    "title" : "热门职位",
+    "code" : "0",
+    "positions_list" : [
+        {
+            "companysImg" : "https://www.lgstatic.com/i/image2/M01/79/0A/CgoB5ltr2A-AM5SFAADbT9jQCn841.jpeg",
+            "companysId" : "62",
+            "companysName":"字节跳动",
+            "companysIntroduce":"文娱丨内容 / D轮及以上",
+            "positionName" : "技术运营实习生",
+            "positionSalary":"5k-10k",
+            "positionRequire" :["北京","本科","实习"] ,
+            "positionDescribe" : [],
+            "positionInfo" : ["https://www.lagou.com/gongsi/62.html?source=campus_jobs"]
+        },
+        {
+            "companysImg" : "https://www.lgstatic.com/i/image/M00/13/51/CgqKkVbnZ52AYLVRAALVGclrAtY201.png",
+            "companysId" : "30605",
+            "positionName" : "实习生（技术类）",
+            "companysName":"小鹏汽车",
+            "companysIntroduce":"文娱丨内容 / D轮及以上",
+            "positionSalary":"3k-4k",
+            "positionRequire" :["上海","本科","实习"] ,
+            "positionDescribe" : ["互联金融" , "互联","MySQL"],
+            "positionInfo" : ["https://www.lagou.com/gongsi/30605.html?source=campus_jobs"]
+        },
+        {
+            "companysImg" : "https://www.lgstatic.com/i/image/M00/54/42/CgqKkVfDmE-AfKjFAAGdSrhky50022.jpg",
+            "companysId" : "76924",
+            "positionName" : "运营实习生",
+            "companysName":"字节跳动",
+            "companysIntroduce":"文娱丨内容 / D轮及以上",
+            "positionSalary":"5k-10k",
+            "positionRequire" :["广州","本科","实习"] ,
+            "positionDescribe" : [],
+            "positionInfo" : ["https://www.lagou.com/gongsi/76924.html?source=campus_jobs"]
+        }
+    ]},
+    {
+        "type" : "position",
+        "title" : "热门职位",
+        "code" : "0",
+        "positions_list" : [
+            {
+                "companysImg" : "https://www.lgstatic.com/i/image3/M01/65/98/CgpOIF5Cd6WAfSxOAAAMJXTxMAQ798.png",
+                "companysId" : "62",
+                "companysName":"字节跳动",
+                "companysIntroduce":"文娱丨内容 / D轮及以上",
+                "positionName" : "技术运营实习生",
+                "positionSalary":"5k-10k",
+                "positionRequire" :["北京","本科","实习"] ,
+                "positionDescribe" : ["互联金融" , "金融"],
+                "positionInfo" : ["https://www.lagou.com/gongsi/62.html?source=campus_jobs"]
+            },
+            {
+                "companysImg" : "https://www.lgstatic.com/image1/M00/00/0C/Cgo8PFTUWB2AFrjaAABh76C2FX8105.jpg",
+                "companysId" : "30605",
+                "positionName" : "实习生（技术类）",
+                "companysName":"小鹏汽车",
+                "companysIntroduce":"文娱丨内容 / D轮及以上",
+                "positionSalary":"3k-4k",
+                "positionRequire" :["上海","本科","实习"] ,
+                "positionDescribe" : ["互联金融" , "互联","MySQL"],
+                "positionInfo" : ["https://www.lagou.com/gongsi/30605.html?source=campus_jobs"]
+            },
+            {
+                "companysImg" : "https://www.lgstatic.com/i/image/M00/54/42/CgqKkVfDmE-AfKjFAAGdSrhky50022.jpg",
+                "companysId" : "76924",
+                "positionName" : "运营实习生",
+                "companysName":"字节跳动",
+                "companysIntroduce":"文娱丨内容 / D轮及以上",
+                "positionSalary":"5k-10k",
+                "positionRequire" :["广州","本科","实习"] ,
+                "positionDescribe" : [],
+                "positionInfo" : ["https://www.lagou.com/gongsi/76924.html?source=campus_jobs"]
+            }
+        ]},
+        {
+            "type" : "position",
+            "title" : "热门职位",
+            "code" : "0",
+            "positions_list" : [
+                {
+                    "companysImg" : "https://www.lgstatic.com/i/image2/M01/79/0A/CgoB5ltr2A-AM5SFAADbT9jQCn841.jpeg",
+                    "companysId" : "62",
+                    "companysName":"字节跳动",
+                    "companysIntroduce":"文娱丨内容 / D轮及以上",
+                    "positionName" : "技术运营实习生",
+                    "positionSalary":"5k-10k",
+                    "positionRequire" :["北京","本科","实习"] ,
+                    "positionDescribe" : ["互联金融" , "金融"],
+                    "positionInfo" : ["https://www.lagou.com/gongsi/62.html?source=campus_jobs"]
+                },
+                {
+                    "companysImg" : "https://www.lgstatic.com/i/image/M00/13/51/CgqKkVbnZ52AYLVRAALVGclrAtY201.png",
+                    "companysId" : "30605",
+                    "positionName" : "实习生（技术类）",
+                    "companysName":"小鹏汽车",
+                    "companysIntroduce":"文娱丨内容 / D轮及以上",
+                    "positionSalary":"3k-4k",
+                    "positionRequire" :["上海","本科","实习"] ,
+                    "positionDescribe" : ["互联金融" , "互联","MySQL"],
+                    "positionInfo" : ["https://www.lagou.com/gongsi/30605.html?source=campus_jobs"]
+                },
+                {
+                    "companysImg" : "https://www.lgstatic.com/image1/M00/00/0C/Cgo8PFTUWB2AFrjaAABh76C2FX8105.jpg",
+                    "companysId" : "76924",
+                    "positionName" : "运营实习生",
+                    "companysName":"字节跳动",
+                    "companysIntroduce":"文娱丨内容 / D轮及以上",
+                    "positionSalary":"5k-10k",
+                    "positionRequire" :["广州","本科","实习"] ,
+                    "positionDescribe" : [],
+                    "positionInfo" : ["https://www.lagou.com/gongsi/76924.html?source=campus_jobs"]
+                }
+            ]},
+            {
+                "type" : "position",
+                "title" : "热门职位",
+                "code" : "0",
+                "positions_list" : [
+                    {
+                        "companysImg" : "https://www.lgstatic.com/i/image2/M01/79/0A/CgoB5ltr2A-AM5SFAADbT9jQCn841.jpeg",
+                        "companysId" : "62",
+                        "companysName":"字节跳动",
+                        "companysIntroduce":"文娱丨内容 / D轮及以上",
+                        "positionName" : "技术运营实习生",
+                        "positionSalary":"6k-10k",
+                        "positionRequire" :["北京","本科","实习"] ,
+                        "positionDescribe" : ["互联金融" , "金融"],
+                        "positionInfo" : ["https://www.lagou.com/gongsi/62.html?source=campus_jobs"]
+                    },
+                    {
+                        "companysImg" : "https://www.lgstatic.com/i/image/M00/13/51/CgqKkVbnZ52AYLVRAALVGclrAtY201.png",
+                        "companysId" : "30605",
+                        "positionName" : "实习生（技术类）",
+                        "companysName":"小鹏汽车",
+                        "companysIntroduce":"文娱丨内容 / D轮及以上",
+                        "positionSalary":"3k-4k",
+                        "positionRequire" :["上海","本科","实习"] ,
+                        "positionDescribe" : ["互联金融" , "互联","MySQL"],
+                        "positionInfo" : ["https://www.lagou.com/gongsi/30605.html?source=campus_jobs"]
+                    },
+                    {
+                        "companysImg" : "https://www.lgstatic.com/image1/M00/00/0C/Cgo8PFTUWB2AFrjaAABh76C2FX8105.jpg",
+                        "companysId" : "76924",
+                        "positionName" : "运营实习生",
+                        "companysName":"字节跳动",
+                        "companysIntroduce":"文娱丨内容 / D轮及以上",
+                        "positionSalary":"2k-5k",
+                        "positionRequire" :["广州","本科","实习"] ,
+                        "positionDescribe" : [],
+                        "positionInfo" : ["https://www.lagou.com/gongsi/76924.html?source=campus_jobs"]
+                    }
+                ]},
+                {
+                    "type" : "position",
+                    "title" : "热门职位",
+                    "code" : "0",
+                    "positions_list" : [
+                        {
+                            "companysImg" : "https://www.lgstatic.com/i/image2/M01/79/0A/CgoB5ltr2A-AM5SFAADbT9jQCn841.jpeg",
+                            "companysId" : "62",
+                            "companysName":"字节跳动",
+                            "companysIntroduce":"文娱丨内容 / D轮及以上",
+                            "positionName" : "技术运营实习生",
+                            "positionSalary":"5k-10k",
+                            "positionRequire" :["北京","本科","实习"] ,
+                            "positionDescribe" : ["互联金融" , "金融"],
+                            "positionInfo" : ["https://www.lagou.com/gongsi/62.html?source=campus_jobs"]
+                        },
+                        {
+                            "companysImg" : "https://www.lgstatic.com/i/image/M00/13/51/CgqKkVbnZ52AYLVRAALVGclrAtY201.png",
+                            "companysId" : "30605",
+                            "positionName" : "实习生（技术类）",
+                            "companysName":"小鹏汽车",
+                            "companysIntroduce":"文娱丨内容 / D轮及以上",
+                            "positionSalary":"7k-8k",
+                            "positionRequire" :["南京","本科","实习"] ,
+                            "positionDescribe" : ["互联金融" , "互联","MySQL"],
+                            "positionInfo" : ["https://www.lagou.com/gongsi/30605.html?source=campus_jobs"]
+                        },
+                        {
+                            "companysImg" : "https://www.lgstatic.com/i/image/M00/54/42/CgqKkVfDmE-AfKjFAAGdSrhky50022.jpg",
+                            "companysId" : "76924",
+                            "positionName" : "运营实习生",
+                            "companysName":"跳动",
+                            "companysIntroduce":"文娱丨内容 / D轮及以上",
+                            "positionSalary":"5k-10k",
+                            "positionRequire" :["广州","本科","实习"] ,
+                            "positionDescribe" : [],
+                            "positionInfo" : ["https://www.lagou.com/gongsi/76924.html?source=campus_jobs"]
+                        }
+                    ]}
+                    ,{
+                        "type" : "position",
+                        "title" : "热门职位",
+                        "code" : "0",
+                        "positions_list" : [
+                            {
+                                "companysImg" : "https://www.lgstatic.com/i/image2/M01/79/0A/CgoB5ltr2A-AM5SFAADbT9jQCn841.jpeg",
+                                "companysId" : "62",
+                                "companysName":"字节跳动",
+                                "companysIntroduce":"文娱丨内容 / D轮及以上",
+                                "positionName" : "技术运营实习生",
+                                "positionSalary":"5k-10k",
+                                "positionRequire" :["北京","本科","实习"] ,
+                                "positionDescribe" : ["互联金融" , "金融"],
+                                "positionInfo" : ["https://www.lagou.com/gongsi/62.html?source=campus_jobs"]
+                            },
+                            {
+                                "companysImg" : "https://www.lgstatic.com/i/image/M00/13/51/CgqKkVbnZ52AYLVRAALVGclrAtY201.png",
+                                "companysId" : "30605",
+                                "positionName" : "实习生（技术类）",
+                                "companysName":"小鹏汽车",
+                                "companysIntroduce":"文娱丨内容 / D轮及以上",
+                                "positionSalary":"3k-4k",
+                                "positionRequire" :["深圳","本科","实习"] ,
+                                "positionDescribe" : ["互联金融" , "互联","MySQL"],
+                                "positionInfo" : ["https://www.lagou.com/gongsi/30605.html?source=campus_jobs"]
+                            },
+                            {
+                                "companysImg" : "https://www.lgstatic.com/i/image/M00/54/42/CgqKkVfDmE-AfKjFAAGdSrhky50022.jpg",
+                                "companysId" : "76924",
+                                "positionName" : "运营",
+                                "companysName":"字节跳动",
+                                "companysIntroduce":"文娱丨内容 / D轮及以上",
+                                "positionSalary":"5k-10k",
+                                "positionRequire" :["大连","本科","实习"] ,
+                                "positionDescribe" : ["MySQL"],
+                                "positionInfo" : ["https://www.lagou.com/gongsi/76924.html?source=campus_jobs"]
+                            }
+                        ]}
+]}

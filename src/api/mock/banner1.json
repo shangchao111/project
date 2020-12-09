@@ -1,0 +1,32 @@
+{
+    "type" : "banner",
+    "code" : 0,
+    "banner_list" : [
+        {
+            "imgUrl" : "https://www.lgstatic.com/thumbnail_600x360/i/image2/M01/84/A8/CgotOVuH42CAfVPrACj5ggvhfWU887.jpg",
+            "imgLink" : ""
+        },
+        {
+            "imgUrl" : "https://www.lgstatic.com/thumbnail_600x360/i/image2/M01/A4/44/CgoB5l3BG2SAGp2yAA0B2hLKPKE09.jpeg",
+            "imgLink" : ""
+        },
+        {
+            "imgUrl" : "https://www.lgstatic.com/thumbnail_600x360/i/image2/M01/A4/63/CgotOV3BGkeAMRS5AAGqKvn3BSI169.JPG",
+            "imgLink" : ""
+        },
+        {
+            "imgUrl" : "https://www.lgstatic.com/thumbnail_600x360/i/image2/M01/A4/44/CgoB5l3BGyiAIvrIACzrpBEAB40511.jpg",
+            "imgLink" : ""
+        },
+        {
+            "imgUrl" : "https://www.lgstatic.com/thumbnail_600x360/i/image2/M01/A4/43/CgoB5l3BGY-AeyEEAAG4ZscKIaQ798.JPG",
+            "imgLink" : ""
+        },
+        {
+            "imgUrl" : "https://www.lgstatic.com/thumbnail_600x360/i/image2/M01/A4/43/CgoB5l3BGaKAYmKKACWqKovfcfE415.jpg",
+            "imgLink" : ""
+        }
+       
+       
+    ]
+}

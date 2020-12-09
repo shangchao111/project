@@ -49,34 +49,147 @@
     margin-top: 40px;
     .left-nav{
         display: block;
-        width: 168px;
-        height: 312px;
-        padding: 0 20px;
         border:1px solid #f0f0f0;
         margin-right: 20px;
+            .nav-main{
+                width: 168px;
+                padding: 0 20px;
+                height: 62px;
+                line-height: 62px;
+                position: relative; 
+                background: #fff; 
+                .more-position{
+                    position: absolute;
+                    width: 200px;
+                    height: 100px;
+                    background:#fff;
+                    left: 208px;
+                    top: -1px;
+                    padding-left:20px;
+                    z-index: 5;
+                    display: none;
+                    border:1px solid #f0f0f0;
+                }
+                .s{
+                    position: absolute;
+                    display: none;
+                    height: 62px;
+                    border: 1px solid #fff;
+                    right: -1px;
+                    z-index: 10;
+                    display: none;
+                }
+               
+            }
+            // .nav-main:hover{
+                // border-bottom:1px solid #f0f0f0;
+                // .more-position{
+                    // display: block;
+                // }
+                // .s{
+                    // display: block;
+                // }
+            // }
     }
     .img{
         width: 760px;
         height: 312px;
         margin-right: 20px; 
+        position: relative;
+        overflow: hidden;
         .pic{
-            width: 760px;
-            height: 312px; 
+            width: 1520px;
+            height: 312px;
+            position: absolute; 
+            left: 0;
+            top: 0;
             li{
                 height: 100%;
-                width: 100%;
-                img{
+                width: 760px;
+                a{
+                    display: block;
                     height: 100%;
-                    width: 100%;  
-                }
+                    width: 760px;  
+                    img{
+                        height: 100%;
+                        width: 760px;  
+                    }
+                }    
             }
-        }                
+        } 
+        .icon{
+            position: absolute;
+            left: 370px;
+            bottom: 20px;
+            li{
+                height: 6px;
+                width: 6px;
+                border-radius: 50%;
+                background: #fff;
+                margin: 0 1.5px;
+                background: hsla(0,0%,100%,.5);
+                float: left;
+                
+            }
+            .active{
+                width: 15px;
+                height: 6px;
+                border-radius: 3px;
+                background: #fff;
+                margin: 0 4.5px;
+
+            }
+        }               
     }
     .login{
         width: 148px;
         height: 276px;
         padding: 18px 20px 14px;
         border:1px solid #f0f0f0;
+        .user-img{
+            height: 56px;
+            width: 56px;
+            border-radius: 50%;
+            margin: 0 46px;
+            background: red;
+        }
+        .user-info{
+            height: 64px;
+            p{
+                height: 16px;
+                margin-top: 10px;
+                text-align: center;
+            }
+            .user-login{
+                height: 28px;
+                margin: 0px 7px;
+                a{
+                    width: 62px;
+                    height: 28px;
+                    line-height: 28px;
+                    color:#fff;
+                    text-align: center;
+                    display: block;
+                    background: #00b38a;
+                    margin-top: 20px;
+                }
+            }
+        }
+        .user-code{
+            width: 150px;
+            border-top: 1px dashed #e0e0e0;
+            padding-top: 12px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            margin-top: 20px;
+            div{
+                height: 86px;
+                width: 86px;
+                margin: 10px 32px 0;
+                background: red;
+            }
+        }
     }
 }
 
@@ -102,9 +215,21 @@
                 width: 327px;
                 height: 22px;
                 padding: 25px 0;
+                border-bottom: 1px dashed
+#ebebeb;
+                margin: 0 30px;     
+                .span1{
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 10px;
+                }
             }
-            .last-li{
+            li:last-of-type{
                 border-bottom:0;
+            }
+            li:hover{
+                background:#ebebeb;
             }
             li{
                 width: 263px;
@@ -112,6 +237,17 @@
                 border-bottom: 1px dashed #ebebeb;
                 margin: 0 30px;
                 padding:25px 0 25px 64px;
+                position: relative;
+                cursor: pointer;
+                img{
+                    position: absolute;
+                    width: 54px;
+                    height: 54px;
+                    border: 1px solid rgba(0,0,0,.04);
+                    border-radius: 5px;
+                    top: 20px;
+                    left: 0px;
+                }
             }
         }
         .first{
@@ -176,6 +312,9 @@
                 padding:0 15px 0 30px; 
                 line-height: 50px; 
                 background: #ccc;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
             }
             .active{
                 width: 162px;
@@ -188,7 +327,140 @@
             height: 320px;
             padding: 40px;
             margin-left: 0;
-            background: red;
+           
+            dt{
+                width: 371px;
+                height: 320px;
+                
+                .box1{
+                    width: 260px;
+                    height: 94px;
+                    padding-left: 111px;
+                    position: relative;
+                    img{
+                        position: absolute;
+                        width: 96px;
+                        height: 96px;
+                        left: 0;
+                        top: 0;
+                        border: 1px solid rgba(0,0,0,.04);
+                        border-radius: 5px;
+                    }
+                    h3{
+                        color: #333;
+                        line-height: 28px;
+                        font-size: 20px;
+                        width: 240px;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        font-weight: normal;
+                    }
+                    .box2{
+                        color: #666;
+                        line-height: 20px;
+                        margin-top: 5px;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                    }
+                    .box3{
+                        margin-top: 10px;
+                        a{
+                            width: 48px;
+                            height: 13px;
+                            font-size: 12px;
+                            color: #999;
+                            text-align: center;
+                            padding: 5px 12px;
+                            border: 1px solid #f0f0f0;
+                            border-radius: 3px;
+                            margin-right: 8px;
+                            display: inline-block;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                }
+                .company-detail{
+                    width: 371px;
+                    height: 120px;
+                    margin: 34px 0;  
+                    background: yellow; 
+                    h4{
+                        font-weight: normal;
+                        height: 30px;
+                        line-height: 30px;
+                    } 
+                    p{
+                        height: 90px;
+                        line-height: 30px;
+                        width: 371px;
+                        overflow: hidden;
+                        text-overflow: 
+                        ellipsis;
+                        white-space: nowrap;
+                        background: blue;
+                    }
+                    a{
+                        display: inline-block;
+                        padding: 8px 20px;
+                        color: #fafafa;
+                        background: #00b38a;
+                        border-radius: 2px;
+                        line-height: 20px;
+                        margin-top: 25px;
+                    }
+                }
+            }
+            .dd{
+                width: 497px;
+                height: 290px;
+                background: green;
+                overflow: hidden;
+                position: relative;
+                .pic{
+                    width: 2982px;
+                    height: 290px;
+                    position: absolute; 
+                    left: 0;
+                    top: 0;
+                    li{
+                        height: 100%;
+                        width: 497px;
+                        a{
+                            display: block;
+                            height: 100%;
+                            width: 497px;  
+                            img{
+                                height: 100%;
+                                width: 497px;  
+                            }
+                        }    
+                    }
+                } 
+                .icon{
+                    position: absolute;
+                    left: 230px;
+                    bottom: 20px;
+                    li{
+                        height: 6px;
+                        width: 6px;
+                        border-radius: 50%;
+                        background: #fff;
+                        margin: 0 5px;
+                        background: hsla(0,0%,100%,.5);
+                        float: left;
+                    }
+                    .active{
+                        width: 15px;
+                        height: 6px;
+                        border-radius: 3px;
+                        background: #fff;
+                    }
+                }               
+            }
         }
     }
 }
@@ -231,7 +503,62 @@
         }
     }
     .position-list{
-    height: 100px; 
+        margin-bottom: 35px;
+        .position-info:hover{
+            
+            box-shadow: 0 0 5px  #999;
+        }
+        .position-info{
+            width: 347px;
+            height: 158px;
+            border:1px solid #f0f0f0;
+            padding: 20px;
+            margin: 5px;
+            cursor: pointer;
+
+            //float: left;
+            .div{
+                .div1{
+                    width: 254px;
+                    height: 21px;
+                }
+                .div2{
+                    margin: 6px 0 8px 0;
+                }
+                .div3{
+                    border-bottom: 1px dashed #d1d8d6;
+                    span{
+                        line-height: 24px;
+                        width: 86px;
+                        color: #999;
+                        text-align: center;
+                        padding: 0 12px;
+                        border: 1px solid #f0f0f0;
+                        border-radius: 3px;
+                        margin-right: 8px;
+                        margin-bottom: 20px;
+                        display: inline-block;
+                        box-sizing: border-box;
+                    }
+                }
+
+            }
+            .company-position-info{
+                width: 238px;
+                height: 39px;
+                padding-left: 64px;
+                margin-top: 20px;
+                position: relative;
+               img{
+                   height: 40px;
+                   width: 40px;
+                   border: 1px solid rgba(0,0,0,.04);
+                   position: absolute;
+                   left: 0;
+                   top: 0;
+               } 
+            }
+        }
     }  
 }
 

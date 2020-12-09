@@ -1,0 +1,16 @@
+{
+    "type" : "banner",
+    "code" : 0,
+    "banner_list" : [
+        {
+            "imgUrl" : "https://www.lgstatic.com/i/image/M00/62/8F/Ciqc1F-SoSqAXPq9AAEq4rewPb0446.PNG",
+            "imgLink" : "https://shenceyun.lagou.com/t/H3"
+        },
+        {
+            "imgUrl" : "https://www.lgstatic.com/i/image/M00/7D/06/Ciqc1F_N_EeAEdf3AADDhfklGvw850.PNG",
+            "imgLink" : " https://zhuanti.lagoucom/xunlianying.html"
+        }
+       
+       
+    ]
+}

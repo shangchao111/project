@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/position.css">
+    <script src="/lib/require.js" data-main="/js/position.js"></script>
 </head>
 <body>
     @include('head.html')
@@ -12,7 +13,7 @@
     <div id="search">
         <div id="input">
             <form action="#" class="clearfix">
-                <input type="text" value="搜索职位、公司或地点" class="inp l">
+                <input type="text" class="inp l" placeholder="搜索职位、公司或地点">
                 <input type="submit" value="搜索" class="submit l">
             </form>
             <div id="hot-search">
@@ -23,20 +24,85 @@
     <!-- banner -->
     <div id="banner" class="w clearfix">
         <div class="left-nav l">
-            <ul class="nav">
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
+            <ul>
+                <li class="clearfix nav-main">
+                    <div class="l">技术</div>
+                    <div class="l">
+                        <a href="#">web前端</a>
+                        <a href="#">web前端</a>
+                    </div>
+                    <span class="r">></span>
+                    <ul class="more-position">
+                        <li>
+                            <a href="">Java</a>
+                            <span>&nbsp|&nbsp</span>
+                            <a href="">PHP</a>
+                            <span>&nbsp|&nbsp</span>
+                            <a href="">软件开发</a>
+                        </li>
+                    </ul>
+                    <span class="s"></span>
+                </li>
+                <li class="clearfix nav-main">
+                    <div class="l">技术</div>
+                    <div class="l">
+                        <a href="#">web前端</a>
+                        <a href="#">web前端</a>
+                    </div>
+                    <span class="r">></span>
+                </li>
+                <li class="clearfix nav-main">
+                    <div class="l">技术</div>
+                    <div class="l">
+                        <a href="#">web前端</a>
+                        <a href="#">web前端</a>
+                    </div>
+                    <span class="r">></span>
+                </li>
+                <li class="clearfix nav-main">
+                    <div class="l">技术</div>
+                    <div class="l">
+                        <a href="#">web前端</a>
+                        <a href="#">web前端</a>
+                    </div>
+                    <span class="r">></span>
+                </li>
+                <li class="clearfix nav-main">
+                    <div class="l">技术</div>
+                    <div class="l">
+                        <a href="#">web前端</a>
+                        <a href="#">web前端</a>
+                    </div>
+                    <span class="r">></span>
+                </li>
         </div>
         <div class="img l">
-            <ul class="pic">
-                <li><img src="../static/img/banner.PNG" alt=""></li>
-            </ul>
+            <!-- <ul class="pic"> -->
+            <!--     <li> -->
+            <!--         <a href=""> -->
+            <!--             <img src="" alt=""> -->
+            <!--         </a>   -->
+            <!--     </li> -->
+            <!-- </ul> -->
+            <!-- <ol class="icon"> -->
+            <!--     <li class="active"></li> -->
+            <!--     <li class="l"></li> -->
+            <!-- </ol> -->
         </div>
         <div class="login l">
-
+            <div class="user-img">
+            </div>
+            <div class="user-info">
+                <p>Hi！ 你好</p>
+                <div class="user-login clearfix">
+                    <a href="#" class="l">登录</a>
+                    <a href="#" class="r">注册</a>
+                </div>
+            </div>
+            <div class="user-code">
+                <p>校招信息随时查!</p>
+                <div></div>
+            </div>
         </div>
     </div>
     <!-- hot-recommendation -->
@@ -45,16 +111,52 @@
             <h3>热门推荐</h3>
         </div>
         <div class="content clearfix">
-            <ul class="l company first">
-                <li class="first-li"></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li class="last-li"></li>
-            </ul>
-            <ul class="l company sec"></ul>
-            <ul class="l company last"></ul>
+            <div class="first l company">
+                <div class="first-li clearfix">
+                    <span class="span1 l"></span>
+                    <span class="l">大家都在投</span>
+                    <span class="r">选择好公司,助力好未来</span>
+                </div>
+                <ul>
+                    <li>
+                        <img src="" alt="">
+                        <div>
+                            <p>字节跳动</p>
+                            <p>
+                                <span>北京</span>/
+                                <span>文娱丨内容</span>/
+                                <span>D轮及以上</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li class="last-li"></li>
+                </ul>
+            </div>
+            <div class="sec l company">
+                <div class="first-li clearfix">
+                    <span class="span1 l"></span>
+                    <span class="l">投递热门榜</span>
+                    <span class="r">精选热门职位，值得一投
+                    </span>
+                </div>
+                <ul></ul>
+            </div>
+            <div class="last l company">
+                <div class="first-li clearfix">
+                    <span class="span1 l"></span>
+                    <span class="l">极速反馈榜</span>
+                    <span class="r">高效HR top 5，一触即达
+                    </span>
+                </div>
+                <ul></ul>
+            </div>
+
+            
+            
+            
         </div>
     </div>
     <!-- hot-company -->
@@ -93,16 +195,57 @@
         </div>
         <div class="company-list clearfix">
                 <div class="l company-name">
-                    <p class="active">1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
+                    <p class="active">字节跳动</p>
+                    <p>海马云</p>
+                    <p>人人公司</p>
+                    <p>象辑科技</p>
+                    <p>康新知识产权</p>
+                    <p>MDPI曼迪匹艾</p>
+                    <p>艾迪泰科</p>
+                    <p>北京和风畅想科技有限公司</p>
                 </div>
-                <div class="l company-content"></div>
+                <div class="l company-content">
+                    <dl class="clearfix">
+                        <dt class="l">
+                            <div class="box1">
+                                <img src="" alt="">
+                                <div>
+                                    <h3>北京贝塔科技股份有限公司</h3>
+                                    <div class="box2">
+                                        <span>北京</span>/
+                                        <span>电商,游戏</span>/
+                                        <span>不需要融资</span>
+                                    </div>
+                                    <div class="box3">
+                                        <a href=""></a>
+                                        <a href=""></a>
+                                        <a href=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="company-detail">
+                                <h4>我们的故事</h4>
+                                <p></p>
+                                <a href="#">3个校招职位</a>
+                            </div>
+                        </dt>
+                        <dd class="r dd">
+                            <!-- <ul class="pic"></ul> -->
+                            <!-- <ul class="pic"> -->
+                            <!--     <li> -->
+                            <!--         <a href=""> -->
+                            <!--             <img src="" alt=""> 
+                            -->
+                            <!--         </a>   -->
+                            <!--     </li> -->
+                            <!-- </ul> -->
+                            <!-- <ol class="icon"> -->
+                            <!--     <li class="active"></li> -->
+                            <!--     <li class="l"></li> -->
+                            <!-- </ol> -->
+                        </dd>
+                    </dl>
+                </div>
         </div>
     </div>
     
@@ -112,29 +255,58 @@
             <h3 class="l">热门职位</h3>
             <ul class="l clearfix position">
                 <li class="l active">
-                    <a href="#">技术</a>
+                    <a href="javaScript:;">技术</a>
                 </li>
                 <li class="l">
-                    <a href="#">产品</a>
+                    <a href="javaScript:;">产品</a>
                 </li>
                 <li class="l">
-                    <a href="#">运营</a>
+                    <a href="javaScript:;">运营</a>
                 </li>
                 <li class="l">
-                    <a href="#">设计</a>
+                    <a href="javaScript:;">设计</a>
                 </li>
                 <li class="l">
-                    <a href="#">市场</a>
+                    <a href="javaScript:;">市场</a>
                 </li>
                 <li class="l">
-                    <a href="#">职能</a>
+                    <a href="javaScript:;">职能</a>
                 </li>
             </ul>
         </div>
         <div class="position-list clearfix">
-               <ul></ul>
-               <ul></ul>
-               <ul></ul>
+                <!--<div class="position-info l">
+                       <div class="div">
+                           <div class="slary clearfix">
+                                <a href="#" class="l">技术运营实习生</a>
+                                <span class="r">5k-10k</span>
+                           </div>
+                           <div class="div2">
+                                <span>北京</span>
+                                /
+                                <span>本科</span>
+                                /    
+                                <span>实习</span>
+                           </div>
+                           <div class="div3">
+                                <span>C++</span>
+                                <span>C++</span>
+                           </div>
+                        </div>
+                      <div  class="company-positioninfo">
+                           <img src="" alt="" class="l">
+                           <div>
+                               <div>
+                                   <p>字节跳动</p>
+                               </div>
+                               <div>
+                                  <p>文娱丨内容 / D轮及以上</p>
+                               </div>
+                           </div>
+                       </div>
+                </div>
+                <div class="position-info l"></div>
+                <div class="position-info l"></div>-->
         </div>
     </div>
 
