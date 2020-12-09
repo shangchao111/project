@@ -9,7 +9,9 @@
             "brief" : "掌握分析思维本质，精通多类型业务场景",
             "teacher" : "三元方差（Jason） 同花顺高级数据分析师",
             "money" : "1",
-            "people" : "5121人购买"
+            "people" : "5121人购买",
+            "id" : 1,
+            "num" : 23
         },
         {
             "link" : "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=569",
@@ -18,7 +20,9 @@
             "brief" : "打造让用户“上瘾”的极致产品体验",
             "teacher" : "赵煜 前滴滴资深体验设计师",
             "money" : "66",
-            "people" : "9024人购买"
+            "people" : "9024人购买",
+            "id" : 2,
+            "num" : 20
         },
         
         {
@@ -28,7 +32,9 @@
             "brief" : "0 基础轻松入门，掌握高薪数据分析技能",
             "teacher" : "花木（Spring） 资深数据分析专家",
             "money" : "399",
-            "people" : "1425人购买"
+            "people" : "1425人购买",
+            "id" : 3,
+            "num" : 13
         },
         {
             "link" : "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=567",
@@ -37,7 +43,9 @@
             "brief" : "从容应对实战场景，轻松掌握刷题技巧",
             "teacher" : "公瑾 中科院博士，资深算法专家",
             "money" : "9",
-            "people" : "824人购买"
+            "people" : "824人购买",
+            "id" : 4,
+            "num" : 8
         },
         {
             "link" : "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=550",
@@ -46,7 +54,9 @@
             "brief" : "打包 Webpack 核心知识，成为前端高手",
             "teacher" : "行痴 拉勾资深前端技术专家",
             "money" : "9",
-            "people" : "1134人购买"
+            "people" : "1134人购买",
+            "id" : 5,
+            "num" : 44
         }
     ]
 }

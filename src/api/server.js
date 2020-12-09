@@ -14,12 +14,25 @@ define(['jquery'] , function($){
     function getIjobData(){
         return $.ajax('/api/mock/ijob.json')
     }
+    function getEcnData(id){
+        var promise = new Promise(function(resolve,reject){
+            $.ajax('/api/mock/educolumn.json').then((res)=>{
+                for(var i=0;i<res.eduColumn_list.length;i++){
+                    if(res.eduColumn_list[i].id == id){
+                        resolve(res.eduColumn_list[i]);
+                    }
+                }
+            });
+        });
+        return promise;
+    }
     return{
         getEduCloumnData,
         getEduBannerData,
         getEduCampData,
         getEduCloumnData,
         getSBData,
-        getIjobData
+        getIjobData,
+        getEcnData
     }
 })

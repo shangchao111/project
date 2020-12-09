@@ -15,7 +15,7 @@ define(['jquery' , '/api/server.js','/js/modules/foot.js'],function($ , {getEduC
         var $parent = $(parentId);
         var tmp = `<p>专栏</p>`+data.eduColumn_list.map((v, i) => {
             return `
-                    <a href="${v.link}">
+                    <a target="_blank" href="/view/educolumn.html?id=${v.id}">
                         <img src="${v.img}" class="l">
                         <div id="column-right">
                         <div class="column-right-title">${v.title}</div>
@@ -48,7 +48,6 @@ define(['jquery' , '/api/server.js','/js/modules/foot.js'],function($ , {getEduC
         $parent.html(tmp);
     }
     function initcamp2(parentId, data) {
-            console.log('2');
             var $parent = $(parentId);
             var tmp = data.eduCamp_list2.map((v, i) => {
             return `
