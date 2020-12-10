@@ -17,17 +17,14 @@
           }
     });
       
-        define(['jquery',"bootstarp","../api/server.js","/js/modules/foot.js"],function($,q,{getSBData,getIjobData,getPositionData,getEduCloumnData},initFoot){
+        define(['jquery',"bootstarp","../api/server.js","/js/modules/foot.js","/js/modules/xiding.js"],function($,q,{getSBData,getIjobData,getPositionData,getEduCloumnData},initFoot,xiDing){
             initFoot()
+            xiDing($('#header'),$('#siOut'))
             $('body').find('a').css("text-decoration","none")
             $('#footer').find('div').css('box-sizing','content-box')
             $('#footer').find('h3').css('height','22px')
             $('#footer').find('h3').css('font-size','18px')
 
-           
-
-            // $('#header-place').find('span').css('color','#afb5c0')
-         //    console.log($('#footer').find('div'));
       // 修改插件轮播图左右按钮的默认大小，隐藏，位置
              // 按钮图标大小，隐藏
              $('.carousel-control-prev-icon,.carousel-control-next-icon').css({
@@ -152,11 +149,9 @@
             //  渲染main-three-job2
              var job2 = $('#main-three-job2 a')
              getPositionData().then((res)=>{
-                 console.log(res.lis);
                 var data = res.lis
                  var tmp=''
                  for(var i=0;i<2    ;i++){
-                     console.log(data[i]);
                   tmp=tmp+`<ul class="main-three-joblist">
                   ${data[i].positions_list.map((v)=>{
                       return`<li data-id=${v.companysId}>
@@ -197,7 +192,6 @@
             //  渲染热门课程
             var kecheng = $("#kecheng1-list")
             getEduCloumnData().then((res)=>{
-                console.log(res.eduColumn_list);
                 var tmp =`<div id="kecheng1">
                 ${res.eduColumn_list.map((v)=>{
                     return`<a href="http://localhost:3000/view/educolumn.html?id=${v.id}" target="_blank">

@@ -11,12 +11,15 @@
         #top-banner .inner img{width: 228px;height: 120px;float: left;}
         #top-banner .inner .text-w{float: left;margin: 0 0 0 9px;font-size: 14px;color: #FFF;padding: 36px 0 0;}
         #top-banner .inner .text-w img{width: 334px;height: 31px;}
+        #top-banner .inner .inner-r{float: right;} 
         // #top-banner .inner .text-w p{}
-        #search{height: 132px;background-color: #F2F5F4;}
-        #search-input{height: 74px; width: 938px; margin: 0 auto;padding: 30px 0;}
-        #search-input-text{float: left;width: 762px;height: 46px;font-size: 16px;padding: 12px 16px;border: 1px solid #cccccc;outline: #00b38a;}
+        #search{background-color: #F2F5F4;height: 120px;}
+        #search #siOut{width: 100%;height: 90px;background-color: #F2F5F4;;}
+        #search-input{height: 74px; width: 938px; margin: 0 auto;padding: 20px 0;}
+        #search-input-text{float: left;width: 762px;height: 46px;font-size: 16px;padding: 12px 16px;border: 1px solid #E8E8E8;outline: #00b38a;}
         #search-input-button{float: left;width: 142px;height: 46px;font-size: 18px;color: #FFF;border: 0;background: #00b38a;cursor: pointer;outline: 0ch;}
-        
+        #search span{display: block;height: 30px;}
+
         // main{/* background-color: darkgray; *//* overflow: hidden; */}
         main #main-one-SMB{margin-top: 26px;height: 376px;}
         main #main-one-SMB #sidebar{width: 320px;float: left;height: 376px;margin-left: -10px;}
@@ -33,16 +36,17 @@
         main #main-one-SMB #sidebar .siderbar-box .siderbar-box-info h3{font-size: 14px;line-height: 27px;margin-bottom: 0;height: 27px;font-weight:normal;}
         main #main-one-SMB #sidebar .siderbar-box .siderbar-box-info span{float: right;cursor: pointer;color: #ccc;font-size: 16px;padding-right: 10px;}
         main #main-one-SMB #move-banner{width: 840px;height: 346px; margin-top: 15px; float: right;background-color: #00b38a;}
+        .carousel-item{transition: transform 1.5s ease, opacity .5s ease-out}
 
-        #main-two-list{height: 52px;margin-top: 52px;margin-bottom: 14px;border-bottom: 1px solid #E8E8E8;}
-        #main-two-list li{display: inline-block;padding: 11px 0;margin-right: 58px;font-size: 16px;color: #999;}
+        #main-two-list{height: 52px;margin-top: 32px;margin-bottom: 14px;border-bottom: 1px solid #E8E8E8;}
+        #main-two-list li{display: inline-block;padding: 11px 0;margin-right: 58px;font-size: 16px;color: #999;cursor: pointer}
         #main-two-list .current{border-bottom: 2px solid #333;background: #fff;color: #333;font-size: 18px;}
             
 
-        #main-three-Jobs{margin-top: 10px;}
+        #main-three-Jobs{margin-top: 30px;}
         // #main-three-Jobs #main-three-job1{position: absolute;top: 0;}
         #main-three-Jobs #main-three-job2{display: none;}
-        .main-three-joblist{display: flex;justify-content:space-around;flex-wrap: wrap;}
+        .main-three-joblist{display: flex;justify-content:space-between;flex-wrap: wrap;}
         .main-three-joblist li{width: 390px;border: 1px solid rgb(232, 232,232);height: 205px;margin-bottom: 16px;padding: 20px 28px 0;border-radius: 5px;}
         .main-three-joblist li:hover{box-shadow: #ccc 0px 0px 5px;}
         .main-three-joblist li .jli-top{height: 114px;border-bottom: 1px dashed rgb(232, 232,232);}
