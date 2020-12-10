@@ -8,8 +8,8 @@ requirejs.config({
 
 // require.js的时候，如果引入绝对路径，需要带有后缀名
 
-define(['jquery' , '/api/server.js' , '/js/modules/banner.js'],function($ , { getBannerData , getBanner1Data,getPositionData,getRecommendationData} , initBanner){
-
+define(['jquery' , '/api/server.js' , '/js/modules/banner.js','/js/modules/foot.js'],function($ , { getBannerData , getBanner1Data,getPositionData,getRecommendationData} , initBanner,initFoot){
+    initFoot()
     getBannerData().then((res)=>{
         //console.log(res);
         var $bannerList = $('.img');
@@ -100,17 +100,17 @@ define(['jquery' , '/api/server.js' , '/js/modules/banner.js'],function($ , { ge
     //初始化热门推荐
     function initRecommendation(parent , data){
         var $uls = $(parent).find('ul');
-        console.log($uls);
+        //console.log($uls);
         var a
         for(var i=0;i<$uls.length;i++){
-            console.log($uls);
+            //console.log($uls);
              a ='lis'+i;
-            console.log(a);
-
+            //console.log(a);
             var tmp = 
             data.positions_list['lis'+i].map((v,i)=>{
 
                 return `
+                
                 <li>
                    <img src="${v.companysImg}" alt="">
                    <div>
@@ -121,20 +121,29 @@ define(['jquery' , '/api/server.js' , '/js/modules/banner.js'],function($ , { ge
                         }).join(" / ")}      
                         </p>
                     </div>
-                </li>  `
+                </li> 
+               `
             }).join('')
             $($uls[i]).html(tmp);
         }   
     }
 
-   
-   
-   
-   
-   
-   
-   
-   
-   
-
+    function fixed(){
+        var $head = $('#header');
+        var $search = $('#search');
+        var t = $head.offset().top;
+        window.onscroll = function(){
+            if( t <= window.pageYOffset ){   //吸顶
+                $head.css('position','fixed');
+                $head.css('top','0');
+                $head.css('z-index',50);
+                $search.css('margin-top',$head.height());
+            }
+            else{   // 正常
+                $head.css('position','static');
+                $head.css('top','t')
+            }
+        };
+    }
+    fixed();
 });
